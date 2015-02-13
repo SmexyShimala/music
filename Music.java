@@ -21,6 +21,13 @@ public class Music {
     location = "None";
     copies = 0;
   }
+  Music(String thisAlbum, String thisArtist, String thisGenre, String thisMedia) {
+    this();
+    album = thisAlbum;
+    artist = thisArtist;
+    genre = thisGenre;
+    media = thisMedia;
+  }
   
   public String toString() {
     String output = "";
