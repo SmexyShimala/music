@@ -21,3 +21,8 @@ public class Music
     copies = 0;
   }
   
+  public String toString() {
+    String output = "";
+    output = "Album: "+ album + "Artist: " + artist + "Genre: " + genre + "Media: " + media + "Location: " + location + "Copies: " + copies
+    return output;
+  }
