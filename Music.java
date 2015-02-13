@@ -3,16 +3,17 @@ public class Music
 //Class to keep track of music
 //February 13, 2015
 
-  String album;
-  String artist;
-  String genre;
-  String media;
-  String location;
-  int copies;
+
+  public String album;
+  public String artist;
+  public String genre;
+  public String media;
+  public String location;
+  public int copies;
 
 /*------------------------*/
   
-  Music {
+  Music() {
     album = "No Album";
     artist = "No Artist";
     genre = "No Genre";
