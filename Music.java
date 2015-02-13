@@ -1,4 +1,4 @@
-public class Music
+public class Music {
 
 //Class to keep track of music
 //February 13, 2015
@@ -27,3 +27,4 @@ public class Music
     output = "Album: "+ album + "Artist: " + artist + "Genre: " + genre + "Media: " + media + "Location: " + location + "Copies: " + copies;
     return output;
   }
+}
