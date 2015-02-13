@@ -24,6 +24,6 @@ public class Music
   
   public String toString() {
     String output = "";
-    output = "Album: "+ album + "Artist: " + artist + "Genre: " + genre + "Media: " + media + "Location: " + location + "Copies: " + copies
+    output = "Album: "+ album + "Artist: " + artist + "Genre: " + genre + "Media: " + media + "Location: " + location + "Copies: " + copies;
     return output;
   }
